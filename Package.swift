@@ -23,8 +23,8 @@ import PackageDescription
 #if os(Linux) || os(macOS) || os(iOS) || os(tvOS)
     
 let package = Package(
-    name: "Socket",
-    targets: [.target(name: "Socket", exclude: [
+    name: "BlueSocket",
+    targets: [.target(name: "BlueSocket", exclude: [
         "BlueSocket.xcodeproj", "BlueSocket.xcworkspace", "README.md", "Sources/Info.plist", "Sources/Socket.h"
     ])]
 )
